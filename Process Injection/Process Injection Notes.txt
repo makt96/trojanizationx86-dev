@@ -1,0 +1,35 @@
+[ CreateToolhelp32Snapshot ]
+https://docs.microsoft.com/en-us/windows/win32/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot
+
+[ PROCESSENTRY32 structure ]
+https://docs.microsoft.com/en-us/windows/win32/api/tlhelp32/ns-tlhelp32-processentry32
+
+[ Process32First ]
+https://docs.microsoft.com/en-us/windows/win32/api/tlhelp32/nf-tlhelp32-process32first
+
+[ Process32Next ]
+https://docs.microsoft.com/en-us/windows/win32/api/tlhelp32/nf-tlhelp32-process32next
+
+[ Taking a Snapshot and Viewing Processes ]
+https://docs.microsoft.com/en-us/windows/win32/toolhelp/taking-a-snapshot-and-viewing-processes
+
+[ VirtualAllocEx ]*
+https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex
+
+[ WriteProcessMemory ]*
+https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory
+
+[ CreateRemoteThread ]*
+https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread
+
+[ OpenProcess ]*
+https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess
+
+[ Process Security and Access Rights - Used in 1st param of OpenProcess ]
+https://docs.microsoft.com/en-us/windows/win32/procthread/process-security-and-access-rights
+
+*signature APIs in Remote Process Injection Malware
+- if you see these, it means the malware has process injection capabilities
+
+
+

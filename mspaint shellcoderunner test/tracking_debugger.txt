@@ -1,0 +1,17 @@
+
+
+
+pushad
+pushfd
+[shellcode]
+popfd
+popad
+004013BF | E8 EC020000              | call crackme1.4016B0                    |
+jmp  004013C4 | E9 7AFEFFFF              | jmp crackme1.401243                     |
+
+
+
+
+Code cave Break Point:
+
+BP-->  0040C277 | 0000                     | add byte ptr ds:[eax],al                |
