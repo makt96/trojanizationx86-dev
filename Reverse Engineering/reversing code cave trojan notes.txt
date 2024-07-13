@@ -1,0 +1,12 @@
+[ Search for hex patterns ]
+
+60 9C : it marks the start of the shellcode/payload
+9D 61 : it marks the end of the shellcode/payload
+
+
+
+60  pushad
+9C  pushfd
+
+9D  popfd
+61  popad
